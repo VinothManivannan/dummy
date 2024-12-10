@@ -8,3 +8,4 @@ runs:
   steps:
     - name: Run a simple script
       run: echo "test successful"
+      shell: pwsh
