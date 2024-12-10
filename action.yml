@@ -1,0 +1,10 @@
+name: "Seperated Action"
+description: "Seperated action"
+outputs:
+  result:
+    description: "Result of the action"
+runs:
+  using: "composite"
+  steps:
+    - name: Run a simple script
+      run: echo "test successful"
